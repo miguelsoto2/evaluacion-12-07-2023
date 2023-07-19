@@ -1,0 +1,107 @@
+body{
+    background: url(https://images.pexels.com/photos/551993/pexels-photo-551993.jpeg);
+    min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+ background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-size: 110% 100%;
+}
+#container{
+    height: 600px;
+    width: 350px;
+    border: double #000000 1px;
+    margin-top: 50px;
+    border-radius: 20px;
+    
+}
+#container form{
+    height: 110%;
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+    border-radius: 5%;
+}
+#container input[type="textfield"]{
+    height: 15%;
+    width: 90%;
+    border-radius: 10px;
+    cursor: default;
+    font-family: 'Abril Fatface', cursive; ;
+    background-color: rgb(167, 164, 164);
+    color: rgb(5, 5, 5);
+    border: solid 10px;
+    font-size: 50px;
+    text-align: right; 
+    margin-top: 40px;
+    margin-left: 5px;
+    
+}
+.orangeclar {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: solid 0px;
+    box-shadow: 6px 2px 1px rgba(243, 184, 118, 0.227);
+    margin-top: 20px;
+    font-size: 25px;
+    color: rgb(125, 122, 122);
+    background-color: rgba(255, 202, 164, 0.502);
+    margin-bottom: 10px;
+}
+.orange{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: solid 0px;
+    box-shadow: 6px 2px 1px rgba(206, 125, 33, 0);
+    margin-top: 20px;
+    font-size: 25px;
+    color: rgb(251, 251, 251);
+    background-color: rgba(237, 87, 12, 0.833);
+    margin-bottom: 10px;
+}
+.white{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: solid 0px;
+    box-shadow: 6px 2px 1px rgba(238, 237, 236, 0.623);
+    margin-top: 20px;
+    font-size: 25px;
+    color: rgb(104, 99, 99);
+    background-color: rgb(247, 247, 247);
+    margin-bottom: 10px;
+    
+}
+.blueclar{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: solid 0px;
+    box-shadow: 6px 2px 1px rgba(232, 232, 232, 0.477);
+    margin-top: 20px;
+    font-size: 25px;
+    color: rgb(19, 67, 225);
+    background-color: rgba(18, 109, 245, 0.274);
+    margin-bottom: 10px;
+}
+.blue{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: solid 0px;
+    box-shadow: 6px 2px 1px rgba(245, 245, 245, 0.603);
+    margin-top: 20px;
+    font-size: 25px;
+    color: rgb(236, 236, 237);
+    background-color: rgb(0, 100, 250);
+    margin-bottom: 10px;
+    
+} 
+
+#container input[type=reset]{
+    box-shadow: 6px 2px 1px rgba(255, 137, 3, 0.349);
+    
+}
